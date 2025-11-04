@@ -1,0 +1,747 @@
+<PAMDataset>
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCRS["unknown",BASEGEOGCRS["unknown",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ID["EPSG",6326]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8901]]],CONVERSION["unknown",METHOD["Equal Earth",ID["EPSG",1078]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1,ID["EPSG",9001]]]]</SRS>
+  <PAMRasterBand band="1">
+    <Description>Scleria_acanthocarpa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>Scleria_achtenii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>Scleria_adpressohirta</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>Scleria_afroreflexa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>Scleria_alpina</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>Scleria_amazonica</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>Scleria_anceps</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>Scleria_andringitrensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>Scleria_angusta</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="10">
+    <Description>Scleria_angustifolia</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="11">
+    <Description>Scleria_ankaratrensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="12">
+    <Description>Scleria_annularis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="13">
+    <Description>Scleria_anomala</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="14">
+    <Description>Scleria_arcuata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="15">
+    <Description>Scleria_arenaria</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="16">
+    <Description>Scleria_arguta</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="17">
+    <Description>Scleria_aromatica</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="18">
+    <Description>Scleria_atroglumis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="19">
+    <Description>Scleria_attenuatifolia</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="20">
+    <Description>Scleria_aurantiaca</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="21">
+    <Description>Scleria_aureovillosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="22">
+    <Description>Scleria_balansae</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="23">
+    <Description>Scleria_baldwinii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="24">
+    <Description>Scleria_bambariensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="25">
+    <Description>Scleria_baroni-clarkei</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="26">
+    <Description>Scleria_baronii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="27">
+    <Description>Scleria_bellii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="28">
+    <Description>Scleria_benthamii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="29">
+    <Description>Scleria_bequaertii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="30">
+    <Description>Scleria_biflora</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="31">
+    <Description>Scleria_boivinii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="32">
+    <Description>Scleria_boniana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="33">
+    <Description>Scleria_borii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="34">
+    <Description>Scleria_bourgeaui</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="35">
+    <Description>Scleria_bracteata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="36">
+    <Description>Scleria_bradei</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="37">
+    <Description>Scleria_brownii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="38">
+    <Description>Scleria_bulbifera</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="39">
+    <Description>Scleria_burchellii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="40">
+    <Description>Scleria_calcicola</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="41">
+    <Description>Scleria_camaratensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="42">
+    <Description>Scleria_canescens</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="43">
+    <Description>Scleria_carphiformis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="44">
+    <Description>Scleria_castanea</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="45">
+    <Description>Scleria_catophylla</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="46">
+    <Description>Scleria_chasmema</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="47">
+    <Description>Scleria_cheekii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="48">
+    <Description>Scleria_chevalieri</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="49">
+    <Description>Scleria_chlorantha</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="50">
+    <Description>Scleria_chlorocalyx</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="51">
+    <Description>Scleria_ciliaris</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="52">
+    <Description>Scleria_ciliata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="53">
+    <Description>Scleria_clarkei</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="54">
+    <Description>Scleria_clathrata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="55">
+    <Description>Scleria_colorata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="56">
+    <Description>Scleria_comosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="57">
+    <Description>Scleria_composita</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="58">
+    <Description>Scleria_corymbosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="59">
+    <Description>Scleria_cuyabensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="60">
+    <Description>Scleria_cyathophora</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="61">
+    <Description>Scleria_cyperina</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="62">
+    <Description>Scleria_delicatula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="63">
+    <Description>Scleria_densispicata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="64">
+    <Description>Scleria_depressa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="65">
+    <Description>Scleria_didina</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="66">
+    <Description>Scleria_distans</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="67">
+    <Description>Scleria_dregeana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="68">
+    <Description>Scleria_dulungensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="69">
+    <Description>Scleria_eggersiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="70">
+    <Description>Scleria_erythrorrhiza</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="71">
+    <Description>Scleria_filiculmis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="72">
+    <Description>Scleria_flagellum-nigrorum</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="73">
+    <Description>Scleria_flexuosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="74">
+    <Description>Scleria_foliosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="75">
+    <Description>Scleria_foveolata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="76">
+    <Description>Scleria_fulvipilosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="77">
+    <Description>Scleria_gaertneri</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="78">
+    <Description>Scleria_georgiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="79">
+    <Description>Scleria_glabra</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="80">
+    <Description>Scleria_globonux</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="81">
+    <Description>Scleria_glomerulata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="82">
+    <Description>Scleria_goossensii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="83">
+    <Description>Scleria_gracillima</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="84">
+    <Description>Scleria_greigiifolia</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="85">
+    <Description>Scleria_guineensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="86">
+    <Description>Scleria_harlandii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="87">
+    <Description>Scleria_havanensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="88">
+    <Description>Scleria_hildebrandtii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="89">
+    <Description>Scleria_hilsenbergii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="90">
+    <Description>Scleria_hirtella</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="91">
+    <Description>Scleria_hispidior</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="92">
+    <Description>Scleria_hispidula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="93">
+    <Description>Scleria_huberi</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="94">
+    <Description>Scleria_indica</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="95">
+    <Description>Scleria_induta</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="96">
+    <Description>Scleria_interrupta</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="97">
+    <Description>Scleria_iostephana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="98">
+    <Description>Scleria_junghuhniana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="99">
+    <Description>Scleria_kerrii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="100">
+    <Description>Scleria_khasiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="101">
+    <Description>Scleria_lacustris</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="102">
+    <Description>Scleria_lagoensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="103">
+    <Description>Scleria_latifolia</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="104">
+    <Description>Scleria_laxa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="105">
+    <Description>Scleria_laxiflora</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="106">
+    <Description>Scleria_leptostachya</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="107">
+    <Description>Scleria_levis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="108">
+    <Description>Scleria_liberica</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="109">
+    <Description>Scleria_lingulata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="110">
+    <Description>Scleria_lithosperma</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="111">
+    <Description>Scleria_longispiculata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="112">
+    <Description>Scleria_lucentinigricans</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="113">
+    <Description>Scleria_macbrideana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="114">
+    <Description>Scleria_mackaviensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="115">
+    <Description>Scleria_macrogyne</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="116">
+    <Description>Scleria_macrophylla</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="117">
+    <Description>Scleria_madagascariensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="118">
+    <Description>Scleria_martii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="119">
+    <Description>Scleria_maypurensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="120">
+    <Description>Scleria_melanomphala</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="121">
+    <Description>Scleria_melanotricha</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="122">
+    <Description>Scleria_microcarpa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="123">
+    <Description>Scleria_mikawana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="124">
+    <Description>Scleria_millespicula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="125">
+    <Description>Scleria_minor</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="126">
+    <Description>Scleria_mitis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="127">
+    <Description>Scleria_mongomoensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="128">
+    <Description>Scleria_monticola</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="129">
+    <Description>Scleria_motleyi</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="130">
+    <Description>Scleria_mucronata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="131">
+    <Description>Scleria_muehlenbergii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="132">
+    <Description>Scleria_multilacunosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="133">
+    <Description>Scleria_myricocarpa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="134">
+    <Description>Scleria_natalensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="135">
+    <Description>Scleria_naumanniana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="136">
+    <Description>Scleria_neesii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="137">
+    <Description>Scleria_neocaledonica</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="138">
+    <Description>Scleria_neogranatensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="139">
+    <Description>Scleria_novae-hollandiae</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="140">
+    <Description>Scleria_nusbaumeri</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="141">
+    <Description>Scleria_nyasensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="142">
+    <Description>Scleria_oblata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="143">
+    <Description>Scleria_obtusa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="144">
+    <Description>Scleria_oligantha</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="145">
+    <Description>Scleria_oligochondra</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="146">
+    <Description>Scleria_orchardii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="147">
+    <Description>Scleria_ovinux</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="148">
+    <Description>Scleria_pachyrrhyncha</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="149">
+    <Description>Scleria_panicoides</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="150">
+    <Description>Scleria_pantadenia</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="151">
+    <Description>Scleria_parallella</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="152">
+    <Description>Scleria_parvula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="153">
+    <Description>Scleria_patula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="154">
+    <Description>Scleria_pauciflora</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="155">
+    <Description>Scleria_paupercula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="156">
+    <Description>Scleria_pedicellata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="157">
+    <Description>Scleria_pergracilis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="158">
+    <Description>Scleria_pernambucana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="159">
+    <Description>Scleria_perpusilla</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="160">
+    <Description>Scleria_pilosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="161">
+    <Description>Scleria_pilosissima</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="162">
+    <Description>Scleria_plusiophylla</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="163">
+    <Description>Scleria_poeppigii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="164">
+    <Description>Scleria_poiformis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="165">
+    <Description>Scleria_polycarpa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="166">
+    <Description>Scleria_polyrrhiza</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="167">
+    <Description>Scleria_pooides</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="168">
+    <Description>Scleria_porphyrocarpa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="169">
+    <Description>Scleria_procumbens</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="170">
+    <Description>Scleria_pseudohispidior</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="171">
+    <Description>Scleria_psilorrhiza</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="172">
+    <Description>Scleria_pulchella</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="173">
+    <Description>Scleria_purdiei</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="174">
+    <Description>Scleria_purpurascens</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="175">
+    <Description>Scleria_pusilla</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="176">
+    <Description>Scleria_racemosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="177">
+    <Description>Scleria_radula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="178">
+    <Description>Scleria_ramosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="179">
+    <Description>Scleria_rehmannii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="180">
+    <Description>Scleria_remota</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="181">
+    <Description>Scleria_reticularis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="182">
+    <Description>Scleria_richardsiae</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="183">
+    <Description>Scleria_robinsoniana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="184">
+    <Description>Scleria_robusta</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="185">
+    <Description>Scleria_rosea</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="186">
+    <Description>Scleria_rubrostriata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="187">
+    <Description>Scleria_rugosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="188">
+    <Description>Scleria_rutenbergiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="189">
+    <Description>Scleria_scabra</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="190">
+    <Description>Scleria_scabriuscula</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="191">
+    <Description>Scleria_schiedeana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="192">
+    <Description>Scleria_schimperiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="193">
+    <Description>Scleria_schulzii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="194">
+    <Description>Scleria_scrobiculata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="195">
+    <Description>Scleria_secans</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="196">
+    <Description>Scleria_sellowiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="197">
+    <Description>Scleria_setulosociliata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="198">
+    <Description>Scleria_sheilae</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="199">
+    <Description>Scleria_sieberi</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="200">
+    <Description>Scleria_skutchii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="201">
+    <Description>Scleria_sobolifera</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="202">
+    <Description>Scleria_sororia</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="203">
+    <Description>Scleria_sphacelata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="204">
+    <Description>Scleria_spicata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="205">
+    <Description>Scleria_spiciformis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="206">
+    <Description>Scleria_splitgerberiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="207">
+    <Description>Scleria_sprucei</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="208">
+    <Description>Scleria_staheliana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="209">
+    <Description>Scleria_stipitata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="210">
+    <Description>Scleria_stipularis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="211">
+    <Description>Scleria_stocksiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="212">
+    <Description>Scleria_suffulta</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="213">
+    <Description>Scleria_sumatrensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="214">
+    <Description>Scleria_tenacissima</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="215">
+    <Description>Scleria_tenella</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="216">
+    <Description>Scleria_tepuiensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="217">
+    <Description>Scleria_terrestris</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="218">
+    <Description>Scleria_tessellata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="219">
+    <Description>Scleria_testacea</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="220">
+    <Description>Scleria_thwaitesiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="221">
+    <Description>Scleria_tonkinensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="222">
+    <Description>Scleria_transvaalensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="223">
+    <Description>Scleria_trialata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="224">
+    <Description>Scleria_tricholepis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="225">
+    <Description>Scleria_tricristata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="226">
+    <Description>Scleria_tricuspidata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="227">
+    <Description>Scleria_triglomerata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="228">
+    <Description>Scleria_triquetra</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="229">
+    <Description>Scleria_tropicalis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="230">
+    <Description>Scleria_tryonii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="231">
+    <Description>Scleria_uleana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="232">
+    <Description>Scleria_unguiculata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="233">
+    <Description>Scleria_vaginata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="234">
+    <Description>Scleria_variegata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="235">
+    <Description>Scleria_venezuelensis</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="236">
+    <Description>Scleria_verrucosa</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="237">
+    <Description>Scleria_verticillata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="238">
+    <Description>Scleria_veseyfitzgeraldii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="239">
+    <Description>Scleria_violacea</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="240">
+    <Description>Scleria_virgata</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="241">
+    <Description>Scleria_vogelii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="242">
+    <Description>Scleria_warmingiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="243">
+    <Description>Scleria_welwitschii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="244">
+    <Description>Scleria_williamsii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="245">
+    <Description>Scleria_woodii</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="246">
+    <Description>Scleria_wrightiana</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="247">
+    <Description>Scleria_xerophila</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="248">
+    <Description>Scleria_zambesica</Description>
+  </PAMRasterBand>
+</PAMDataset>
