@@ -1,0 +1,5 @@
+"full.name" "algo" "metric.eval" "calibration" "specificity" "sensitivity" "Youdens_Index"
+"1" "Scleria.flagellum-nigrorum_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "ROC" 0.878 0.81722 0.77586 0.59308
+"2" "Scleria.flagellum-nigrorum_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "TSS" 0.589 0.81309 0.77586 0.58895
+"3" "Scleria.flagellum-nigrorum_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "BOYCE" 0.926 0.87589 0.68966 0.56555
+"4" "Scleria.flagellum-nigrorum_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "KAPPA" 0.329 0.99248 0.27586 0.26834

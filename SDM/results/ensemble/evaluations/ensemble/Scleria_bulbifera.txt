@@ -1,0 +1,5 @@
+"full.name" "algo" "metric.eval" "calibration" "specificity" "sensitivity" "Youdens_Index"
+"1" "Scleria.bulbifera_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "ROC" 0.89 0.77022 0.8445 0.61472
+"2" "Scleria.bulbifera_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "TSS" 0.613 0.7638 0.84718 0.61098
+"3" "Scleria.bulbifera_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "BOYCE" 0.997 0.77663 0.83378 0.61041
+"4" "Scleria.bulbifera_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "KAPPA" 0.478 0.93267 0.56032 0.49299

@@ -1,0 +1,5 @@
+"full.name" "algo" "metric.eval" "calibration" "specificity" "sensitivity" "Youdens_Index"
+"1" "Scleria.pauciflora_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "ROC" 0.861 0.75316 0.80826 0.56142
+"2" "Scleria.pauciflora_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "BOYCE" 0.997 0.75948 0.79056 0.55004
+"3" "Scleria.pauciflora_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "TSS" 0.55 0.7738 0.77581 0.54961
+"4" "Scleria.pauciflora_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "KAPPA" 0.443 0.91491 0.55162 0.46653

@@ -1,0 +1,5 @@
+"full.name" "algo" "metric.eval" "calibration" "specificity" "sensitivity" "Youdens_Index"
+"1" "Scleria.lithosperma_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "TSS" 0.708 0.81959 0.89009 0.70968
+"2" "Scleria.lithosperma_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "ROC" 0.929 0.81959 0.89009 0.70968
+"3" "Scleria.lithosperma_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "BOYCE" 0.989 0.81959 0.89009 0.70968
+"4" "Scleria.lithosperma_EMwmeanByBOYCE_mergedData_mergedRun_mergedAlgo" "EMwmean" "KAPPA" 0.647 0.91598 0.75647 0.67245
