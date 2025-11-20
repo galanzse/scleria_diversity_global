@@ -44,35 +44,44 @@ exp_at_pres <- exp_at_pres %>% group_by(cell, x, y) %>%
 # calculate residual and rasterise for downstream analyses
 exp_at_pres$residual <- exp_at_pres$expected_richness-exp_at_pres$observed_richness
 residual_r <- terra::rast(exp_at_pres[,c('x','y','residual')]); crs(residual_r) <- '+proj=eqearth'
-# plot(residual_r)
+
+exp_at_pres$coverage <- exp_at_pres$observed_richness/exp_at_pres$expected_richness
+exp_at_pres$coverage[exp_at_pres$coverage>1] <- 0
+coverage_r <- terra::rast(exp_at_pres[,c('x','y','coverage')]); crs(coverage_r) <- '+proj=eqearth'
+# plot(coverage_r)
 # lines(bot_countries)
 
 
 
 # calculate area standardized cumulative probability x botanical region, this avoids to set random thresholds
 # calculate average residual per botanical country
-darkspots$cum_prob <- NA
+# darkspots$cum_prob <- NA
 darkspots$areakm <- NA
 darkspots$residual_mean <- NA
 darkspots$residual_sd <- NA
+darkspots$coverage_mean <- NA
+darkspots$coverage_sd <- NA
 for (i in 1:nrow(darkspots)) {
   # select polygon
   aoi_l <- bot_countries[bot_countries$LEVEL3_COD==darkspots$LEVEL3_COD[i]]
   darkspots$areakm[i] <- terra::expanse(aoi_l, unit='km')
-  # stand prob
-  aoi_r <- richness_50km %>% terra::crop(aoi_l, mask=T)
-  darkspots$cum_prob[i] <- aoi_r %>% as.data.frame() %>% deframe() %>% sum()
+  # # stand prob
+  # aoi_r <- richness_50km %>% terra::crop(aoi_l, mask=T)
+  # darkspots$cum_prob[i] <- aoi_r %>% as.data.frame() %>% deframe() %>% sum()
   # residual
   aoi_r <- residual_r %>% terra::crop(aoi_l, mask=T)
   darkspots$residual_mean[i] <- aoi_r %>% as.data.frame() %>% deframe() %>% mean(na.rm=T)
   darkspots$residual_sd[i] <- aoi_r %>% as.data.frame() %>% deframe() %>% sd(na.rm=T)
+  # coverage
+  aoi_r <- coverage_r %>% terra::crop(aoi_l, mask=T)
+  darkspots$coverage_mean[i] <- aoi_r %>% as.data.frame() %>% deframe() %>% mean(na.rm=T)
+  darkspots$coverage_sd[i] <- aoi_r %>% as.data.frame() %>% deframe() %>% sd(na.rm=T)
 }
 
-# observed species per km2
-darkspots$obs_st_1000 <- darkspots$observed / darkspots$areakm * 1000
-
-# expected richness per km2
-darkspots$exp_st_1000 <- darkspots$cum_prob /darkspots$areakm * 1000
+# # observed species per km2
+# darkspots$obs_st_1000 <- darkspots$observed / darkspots$areakm * 1000
+# # expected richness per km2
+# darkspots$exp_st_1000 <- darkspots$cum_prob /darkspots$areakm * 1000
 
 
 
@@ -90,10 +99,10 @@ darkspots$deviation <- darkspots$residual_mean - darkspots$fit
 darkspots$upr_true <- darkspots$residual_mean > darkspots$fit
 
 
-# identify top 10 darkspots for label
-darkspots$LEVEL3_COD_2 <- darkspots$LEVEL3_COD
-table(darkspots$deviation<2.9)
-darkspots$LEVEL3_COD_2[which(darkspots$deviation<2.9)] <- NA
+# # identify top 10 darkspots for label
+# darkspots$LEVEL3_COD_2 <- darkspots$LEVEL3_COD
+# table(darkspots$deviation<2.9)
+# darkspots$LEVEL3_COD_2[which(darkspots$deviation<2.9)] <- NA
 
 
 # retrieve information of level1 areas

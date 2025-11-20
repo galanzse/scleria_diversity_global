@@ -79,6 +79,13 @@ exp_indices$cwm_height <- temp[,'height']
 exp_indices$cwm_blade <- temp[,'blade_area']
 exp_indices$cwm_nutlet <- temp[,'nutlet_volume']
 
+temp <- BAT::cwd(ra_expected_assemblages,
+                 scl_traits[,c('height','blade_area','nutlet_volume')],
+                 abund=TRUE, na.rm=FALSE)
+exp_indices$cwd_height <- temp[,'height']
+exp_indices$cwd_blade <- temp[,'blade_area']
+exp_indices$cwd_nutlet <- temp[,'nutlet_volume']
+
 # checkpoint
 # write.table(exp_indices, 'results/exp_alpha_div.txt')
 
@@ -104,7 +111,7 @@ for (i in 1:nrow(exp_indices)) {
 # functional indexes
 exp_indices$Frich <- BAT::alpha(ra_expected_assemblages, scl_dendrogram)[,'Richness']
 exp_indices$Fmpd <- picante::mpd(ra_expected_assemblages,
-                                 as.matrix(cophenetic(scl_dendrogram)),
+                                 scl_dist,
                                  abundance.weighted=TRUE)
 
 
@@ -173,7 +180,7 @@ for (i in 1:Xnull) {
 
   # Fmpd
   null.Fmpd[,i] <- picante::mpd(ra_exp_ass1,
-                                as.matrix(cophenetic(scl_dendrogram)), abundance.weighted=TRUE)
+                                scl_dist, abundance.weighted=TRUE)
 
   # temporal matrices to store phylo diversity
   mat_Prich <- matrix(nrow=nrow(ra_exp_ass1), ncol=Ntrees)

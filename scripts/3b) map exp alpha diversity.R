@@ -19,11 +19,9 @@ world_grid
 # convert n_ann and n_per into an index
 exp_alpha_div$lifeform_index <- c(exp_alpha_div$n_per - exp_alpha_div$n_ann) / c(exp_alpha_div$n_per + exp_alpha_div$n_ann)
 
-
-
 # template to fill
-alpha_div_rasters <- rep(world_grid, 14)
-names(alpha_div_rasters) <- c("richness", "shannon", "cwm_height", "cwm_blade", "cwm_nutlet", "lifeform_index", "Frich", "Fmpd", "Prich","Pmpd","perc_Frich", "perc_Fmpd", "perc_Prich", "perc_Pmpd")
+alpha_div_rasters <- rep(world_grid, 17)
+names(alpha_div_rasters) <- c("richness", "shannon", "cwm_height", "cwm_blade", "cwm_nutlet", "cwd_height", "cwd_blade", "cwd_nutlet", "lifeform_index", "Frich", "Fmpd", "Prich","Pmpd","perc_Frich", "perc_Fmpd", "perc_Prich", "perc_Pmpd")
 
 # fill values
 alpha_div_rasters$richness <- terra::rast(exp_alpha_div[,c('x','y','richness')], crs='+proj=eqearth') %>%
@@ -37,6 +35,14 @@ alpha_div_rasters$cwm_blade <- terra::rast(exp_alpha_div[,c('x','y','cwm_blade')
   terra::extend(world_grid)
 alpha_div_rasters$cwm_nutlet <- terra::rast(exp_alpha_div[,c('x','y','cwm_nutlet')], crs='+proj=eqearth') %>%
   terra::extend(world_grid)
+
+alpha_div_rasters$cwd_height <- terra::rast(exp_alpha_div[,c('x','y','cwd_height')], crs='+proj=eqearth') %>%
+  terra::extend(world_grid)
+alpha_div_rasters$cwd_blade <- terra::rast(exp_alpha_div[,c('x','y','cwd_blade')], crs='+proj=eqearth') %>%
+  terra::extend(world_grid)
+alpha_div_rasters$cwd_nutlet <- terra::rast(exp_alpha_div[,c('x','y','cwd_nutlet')], crs='+proj=eqearth') %>%
+  terra::extend(world_grid)
+
 alpha_div_rasters$lifeform_index <- terra::rast(exp_alpha_div[,c('x','y','lifeform_index')], crs='+proj=eqearth') %>%
   terra::extend(world_grid)
 

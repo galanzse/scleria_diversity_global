@@ -27,10 +27,10 @@ maphypo <- scleria_probocc_50km %>% terra::subset(scl_taxonomy$epithet[scl_taxon
 
 # map
 par(mfrow=c(2,2))
-plot(mapbrow, main='subgn. Browniae')
-plot(maptrac, main='subgn. Trachylomia')
-plot(mapscle, main='subgn. Scleria')
-plot(maphypo, main='subgn. Hypoporum')
+plot(mapbrow, main='subg. Browniae'); lines(world_lines)
+plot(maptrac, main='subg. Trachylomia'); lines(world_lines)
+plot(mapscle, main='subg. Scleria'); lines(world_lines)
+plot(maphypo, main='subg. Hypoporum'); lines(world_lines)
 
 
 
