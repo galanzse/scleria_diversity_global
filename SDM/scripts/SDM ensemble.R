@@ -31,7 +31,7 @@ pal <- colorRampPalette(c("white","black"))
 # library(readxl)
 scl_occ_ens <- read_excel("C:/Users/javie/Desktop/redo_ens.xlsx")
 
-for (i in 24:nrow(scl_occ_ens)) {
+for (i in 1:nrow(scl_occ_ens)) {
   
   # S. polycarpa yields error so it needs to be done separately (already done)
   if (scl_occ_ens$species[i]=='Scleria polycarpa Boeckeler') next
@@ -116,7 +116,7 @@ for (i in 24:nrow(scl_occ_ens)) {
     PA.nb.rep = n_pa_sets,
     PA.strategy = 'user.defined',
     PA.user.table = df_sets,
-    eval.resp.var = NULL, # presencias para validacion/ necesitaria ausencias reales
+    eval.resp.var = NULL,
     na.rm = TRUE)
   
   

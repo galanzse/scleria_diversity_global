@@ -13,11 +13,17 @@ source('SDM/scripts/SDM organize analyses.R')
 sum_IDW <- read.csv("SDM/results/IDW_AUC.txt", sep="")
 
 
-# ENSEMBLE
-sum_ENS <- list.files('SDM/results/ensemble/evaluations/ensemble', full.names=TRUE)
-t <- subset(read.table(sum_ENS[[1]]), metric.eval%in%c('ROC','BOYCE'))
-for (i in 2:length(sum_ENS)) { t <- rbind(t, subset(read.table(sum_ENS[[i]]), metric.eval%in%c('ROC','BOYCE'))) }
-sum_ENS <- t
+# ENSEMBLE: we did not set data apart to validate ensembles so we need to use single models evaluation
+sum_ENS <- list.files('SDM/results/ensemble/evaluations/simple', full.names=TRUE)
+t <- subset(read.table(sum_ENS[[1]]))
+for (i in 2:length(sum_ENS)) { t <- rbind(t, subset(read.table(sum_ENS[[i]]))) }
+sum_ENS <- t %>% subset(full.name %in% t$full.name[which(t$metric.eval=='BOYCE' & t$validation>0.7)])
+
+# create variable species and get average values
+sum_ENS$species <- sub("_.*", "", sum_ENS$full.name)
+sum_ENS <- sum_ENS %>% subset(metric.eval%in%c('ROC','BOYCE')) %>%
+  group_by(species, metric.eval) %>% summarise(validation=mean(validation)) %>%
+  pivot_wider(names_from='metric.eval', values_from='validation')
 
 
 # MAXENT
@@ -30,8 +36,8 @@ sum_MAX <- do.call(rbind, bestmodels)
 # MERGE
 models_AUC <- data.frame(method=c(rep('MAXENT', length(sum_MAX$auc.val.avg)),
                                   rep('IDW', length(sum_IDW$AUC)),
-                                  rep('ENSEMBLE', length(sum_ENS$calibration[sum_ENS$metric.eval=='ROC']))),
-                         AUC=c(sum_MAX$auc.val.avg, sum_IDW$AUC, sum_ENS$calibration[sum_ENS$metric.eval=='ROC']))
+                                  rep('ENSEMBLE', length(sum_ENS$validation[sum_ENS$metric.eval=='ROC']))),
+                         AUC=c(sum_MAX$auc.val.avg, sum_IDW$AUC, sum_ENS$validation[sum_ENS$metric.eval=='ROC']))
 
 models_AUC$method <- factor(models_AUC$method, levels=c('IDW','MAXENT','ENSEMBLE'))
 

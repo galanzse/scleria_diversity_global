@@ -21,7 +21,7 @@ rst_predictors_2.5min$landcover <- NULL
 
 
 # extract values of stack
-load("C:/Users/javie/OneDrive/ACADEMICO/proyectos/scleria/scleria global diversity/data/data_final.RData")
+load("data/data_final.RData")
 pts_scleria <- data_final$occurrences %>% terra::vect(geom=c('x','y'), crs='epsg:4326')
 temp <- rst_predictors_2.5min %>% terra::extract(pts_scleria, cells=F, xy=F, ID=F)
 

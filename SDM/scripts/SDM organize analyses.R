@@ -10,11 +10,11 @@ library(terra)
 library(rnaturalearth)
 
 # 
-setwd('C:/Users/javie/OneDrive/ACADEMICO/proyectos/scleria/scleria global diversity')
+# setwd('C:/Users/javie/OneDrive/ACADEMICO/proyectos/scleria/scleria global diversity')
 
 
 # observations
-load("C:/Users/javie/OneDrive/ACADEMICO/proyectos/scleria/scleria global diversity/data/data_final.RData")
+load("data/data_final.RData")
 scl_occurrences <- data_final$occurrences
 
 
@@ -35,6 +35,15 @@ scl_sdm_alg$algorithm[scl_sdm_alg$n_obs>=50] <- 'ensemble'
 
 table(scl_sdm_alg$algorithm)
 
+
+# EOO for paper
+scl_sdm_alg$EOO <- NA
+for (i in 1:nrow(scl_sdm_alg)) {
+  scl_sdm_alg$EOO[i] <- data_final$occurrences[data_final$occurrences$scientific_name==scl_sdm_alg$species[i],c('x','y')] %>%
+    vect(geom=c('x','y'), crs='epsg:4326') %>% convHull() %>% expanse(unit='km')
+  print(i)
+}
+scl_sdm_alg %>% group_by(algorithm) %>% summarise(mean=mean(EOO), sd=sd(EOO))
 
 
 # simplified species name
